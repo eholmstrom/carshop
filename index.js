@@ -6,9 +6,6 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 var json_data = require("./data.json");
 
-
-
-
 json_data = json_data.carshop;
 
 // Summation of total_sales
